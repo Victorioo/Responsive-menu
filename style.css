@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+
+body {
+    background-color: #1e1b1eff;
+}
+
+.container{
+    display: flex;
+    justify-content: start;
+}
+
+.contracted {
+    width: 5rem;
+    height: 100vh;
+    background-color: #3841e7;
+}
+
+.svg-container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: start;
+    align-items: start;
+    margin: 5rem 0;
+}
+
+.extended {
+    width: 25rem;
+    font-size: 1.1rem;
+    font-family: 'Poppins', sans-serif;
+    /* border-right: 1px solid gray; */
+    background-color: #434ce6;
+    transition: width 1s;
+    color: white;
+}
+
+.title-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5rem 0;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 2rem;
+    display: inline-block;
+}
+
+
+.lista {
+    margin: 4rem 0rem;
+    width: 90%;
+}
+
+li {
+    font-weight: 400;
+    color: white;
+    border-radius: .5rem;
+    text-align: left;
+    margin: 1rem 2rem;
+    padding: .5rem 2rem;
+    background-color: rgba(9, 0, 0, 0.798);
+    box-shadow: 0 0 5px 4px rgba(70, 70, 70, 0.221);
+    transition: background-color 350ms, color 350ms;
+    cursor: pointer;
+}
+
+
+
+/* li:active {
+     border-radius: 0rem .2rem .2rem 0; 
+    border-bottom: 7px solid purple;
+}  ESTO SE TIENE QUE USAR PARA EL CLICK*/ 
+
+li:hover {
+    color: rgba(9, 0, 0, 0.798);
+    background-color: white;
+    transition: background-color 350ms, color 350ms;
+}
+
+.contracted svg {
+    color: white;
+    margin: .2rem auto;
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+}
+
+.contracted svg:hover {
+    background-color: #6167ebff;
+    transition: background-color 200ms;
+}
+
+
+#abrir {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    transition: transform 1.5s;
+    padding: 0;
+    margin-top: 2rem;
+}
+
+#abrir:hover {
+    background-color: rgba(102, 51, 153, 0.063) ;
+}
+
+.cerrar {
+    width: 2rem;
+    height: 2rem;
+    margin: 1rem 1.5rem;
+    transform: rotate(180deg);
+    transition: transform 1.5s;
+}
+
+
+.contraccion {
+    transition: opacity 4s;
+}

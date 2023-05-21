@@ -1,0 +1,25 @@
+/* .cerrar {
+    width: 2rem;
+    height: 2rem;
+    margin: 1rem 1.5rem;
+    transform: rotate(180deg);
+    transition: transform 1.5s;
+} */
+
+.ocultar {
+    opacity: 0;
+    transition: opacity .6s;
+}
+
+.extendido-ocultar {
+    width: 0;
+    transition: width 2s;
+}
+
+img {
+    margin: 15rem auto 0 auto;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 5rem;
+}
+
