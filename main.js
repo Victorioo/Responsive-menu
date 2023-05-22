@@ -13,6 +13,10 @@ contractedbar.addEventListener('click',function(){
 })
 
 
+// if (contenido.classList != ocultar) {
+//     svg.style.
+// }
+
 //  tengo que bajar la opacidad al contenido y poner width 0 al container
 
 // tengo que sacar la barra que está en la derecha, y hacer girar la que tengo en contracted

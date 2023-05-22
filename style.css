@@ -27,7 +27,7 @@ body {
     flex-flow: column wrap;
     justify-content: start;
     align-items: start;
-    margin: 5rem 0;
+    margin: 3rem 0;
 }
 
 .extended {
@@ -40,36 +40,24 @@ body {
     color: white;
 }
 
-.title-menu {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 5rem 0;
-}
-
 h1 {
+    text-align: center;
+    margin: 2rem auto;
     font-weight: 400;
     font-size: 2rem;
-    display: inline-block;
-}
-
-
-.lista {
-    margin: 4rem 0rem;
-    width: 90%;
 }
 
 li {
-    font-weight: 400;
+    background-color: rgba(0, 0, 0, 0.8);
     color: white;
+    font-weight: 400;
     border-radius: .5rem;
     text-align: left;
-    margin: 1rem 2rem;
+    margin: 1.2rem 2rem;
     padding: .5rem 2rem;
-    background-color: rgba(9, 0, 0, 0.798);
     box-shadow: 0 0 5px 4px rgba(70, 70, 70, 0.221);
-    transition: background-color 350ms, color 350ms;
     cursor: pointer;
+    transition: background-color 300ms, color 300ms;
 }
 
 
@@ -80,9 +68,9 @@ li {
 }  ESTO SE TIENE QUE USAR PARA EL CLICK*/ 
 
 li:hover {
-    color: rgba(9, 0, 0, 0.798);
-    background-color: white;
-    transition: background-color 350ms, color 350ms;
+    color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(255, 255, 255, 0.7);
+    transition: background-color 300ms, color 300ms;
 }
 
 .contracted svg {
@@ -102,12 +90,12 @@ li:hover {
 
 
 #abrir {
+    display: flex;
     width: 2rem;
     height: 2rem;
-    display: flex;
-    transition: transform 1.5s;
+    margin: 2rem auto;
     padding: 0;
-    margin-top: 2rem;
+    transition: transform 1.5s;
 }
 
 #abrir:hover {
@@ -115,14 +103,11 @@ li:hover {
 }
 
 .cerrar {
-    width: 2rem;
-    height: 2rem;
-    margin: 1rem 1.5rem;
     transform: rotate(180deg);
     transition: transform 1.5s;
 }
 
 
 .contraccion {
-    transition: opacity 4s;
+    transition: opacity 4s; 
 }
